@@ -11,7 +11,7 @@ using UnityEngine; //library yg diperlukan klo mau pakai Unity API. contoh Unity
 public class PNGSequencePlayer : MonoBehaviour //MonoBehaviour wajib diakai kalau mau dipasang sebagai component, klo bisa hindari pakai Monobehaviour klo ga perlu dijadiin component. pakai Class biasa lebih hemat performance. Hints: pelajari Object Oriented Programming
 {
 	public SpriteRenderer spriteRenderer; //Di Unity buat memakai sprite selain UI, kita pakainya SpriteRenderer
-	public float FPS = 60; //Buat perhitungan FPS
+	public float FPS = 60f; //Buat perhitungan FPS
 	public List<Sprite> PNGSequnces; //kumpulan dari PNG sequence animasi yang mau kita gerakin
 	//disini variabenya kita pakai public biar bisa ditampilin di inspectornya unity editor. alternativenya klo ga mau pakai public bisa pakai [ShowInInspector] biar bisa ditampilin di inspector unity editor
 
